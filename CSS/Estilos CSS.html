@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos CSS::</title>
+    <style>
+        /* 3 formas, etiqueta, class, id */
+        /*etiqueta*/
+        
+        body {
+            background-color: aquamarine;
+        }
+        
+        p {
+            color: indianred;
+        }
+        
+        img {
+            width: 150px;
+            height: auto;
+        }
+        /*clases (.)-> 1 o  mas elementos, iguales o distintos*/
+        
+        .colorParrafos {
+            color: aqua;
+        }
+        /*por id(#): para 1 solo elemento*/
+        
+        #parrafo4 {
+            color: crimson;
+        }
+        
+        #unica {
+            width: 500px;
+        }
+        
+        #container {
+            background: #FF997D no-repeat fixed center;
+            background-color: #5a1806;
+            background-image: url("imagenes/migiwara.jpg");
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="container">
+
+        <p>Esto es un parrafo 1</p>
+        <p class="colorParrafos">Esto es un parrafo 2</p>
+        <p class="colorParrafos">Esto es un parrafo 3</p>
+        <p class="colorParrafos" id="parrafo4">Esto es un parrafo 4</p>
+        <span class="colorParrafos">span con texto</span>
+        <br>
+        <img src="imagenes/onepiece.jpeg" alt="onepiece">
+        <br>
+
+    </div>
+</body>
+
+</html>
