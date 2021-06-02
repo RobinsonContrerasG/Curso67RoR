@@ -41,10 +41,12 @@ a {
 
 h2 {
     color: white;
+    padding: 10px;
 }
 
 p {
     color: white;
+    padding: 5px;
 }
 
 ::marker {
