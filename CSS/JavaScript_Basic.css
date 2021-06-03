@@ -1,73 +1,102 @@
-* {
-    padding: 0px;
-    margin: 0px;
-}
-
-#container {
-    background-color: #1c345d;
-    width: 950px;
-    min-height: 300px;
-    margin: 0px auto;
-    padding: 10px;
-}
-
-#header {
-    background-color: #cf3136;
-    height: 30px;
-    width: 920px;
-    margin-bottom: 15px;
-    border-radius: 10px;
-    padding: 10px;
-    color: aliceblue;
-}
-
-#navigation {
-    background-color: #2a7d8c;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 10px;
-    border-radius: 10px;
-    padding: 20px 20px 20px 40px;
-}
-
-#submenu {
-    padding-left: 15px;
-    list-style-type: none;
-}
-
-a {
-    color: aqua;
-}
-
-h2 {
-    color: white;
-    padding: 10px;
-}
-
-p {
-    color: white;
-    padding: 5px;
-}
-
-::marker {
-    color: white;
-}
-
-#main {
-    background-color: #0f1922;
-    width: 700px;
-    height: 400px;
-    display: inline-block;
-    vertical-align: top;
-    border-radius: 10px;
-    margin-right: 10px;
-    padding: 3px;
-}
-
-#footer {
-    background-color: #5d6773;
-    height: 50px;
-    width: 920px;
-    margin-top: 15px;
-    border-radius: 10px;
-}
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #container {
+        background-color: #1c345d;
+        width: 950px;
+        min-height: 300px;
+        margin: 0px auto;
+        padding: 10px;
+    }
+    
+    #header {
+        background-color: #cf3136;
+        height: 30px;
+        width: 920px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        padding: 10px;
+        color: aliceblue;
+    }
+    
+    #navigation {
+        background-color: #2a7d8c;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 10px;
+        border-radius: 10px;
+        padding: 20px 20px 20px 40px;
+    }
+    
+    #submenu {
+        padding-left: 15px;
+        list-style-type: none;
+    }
+    
+    a {
+        color: aqua;
+    }
+    
+    h2 {
+        color: white;
+        padding: 10px;
+    }
+    
+    h6 {
+        padding: 10px;
+    }
+    
+    p {
+        color: white;
+        padding: 5px;
+    }
+    
+     ::marker {
+        color: white;
+    }
+    
+    #main {
+        background-color: #0f1922;
+        width: 700px;
+        height: 400px;
+        display: inline-block;
+        vertical-align: top;
+        border-radius: 10px;
+        margin-right: 10px;
+        padding: 3px;
+    }
+    
+    #footer {
+        background-color: #5d6773;
+        height: 50px;
+        width: 920px;
+        margin-top: 15px;
+        border-radius: 10px;
+    }
+    
+    .textblue {
+        color: rgb(118, 146, 255);
+        font-size: 13px;
+    }
+    
+    .textppal {
+        color: rgb(191, 215, 234);
+        font-size: 13px;
+        text-align: justify;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: 15px;
+    }
+    
+    #main_content ul {
+        padding-left: 30px;
+    }
+    
+    h5 {
+        color: rgb(191, 215, 234);
+        font-size: 13px;
+        margin-left: 10px;
+        padding-top: 15px;
+    }
